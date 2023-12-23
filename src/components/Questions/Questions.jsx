@@ -4,7 +4,7 @@ import Options from "../Options/Options";
 const Questions = ({ ques }) => {
   console.log(ques);
   const { correctAnswer, id, options, question } = ques;
-  console.log(ques);
+  console.log(correctAnswer);
   const handleAnswer = (op) => {
     if (op === correctAnswer) {
       console.log("correct Answer");

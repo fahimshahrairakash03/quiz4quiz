@@ -3,7 +3,6 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 const Options = ({ option, handleAnswer }) => {
-  console.log(option);
   return (
     <div className="w-25 ">
       <Card onClick={() => handleAnswer({ option })} className="p-1 m-2 " body>
